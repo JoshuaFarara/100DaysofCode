@@ -62,3 +62,16 @@ fta = "Farara\
 The\
 Artist"
 print(fta)
+
+#Explicit line continuation:
+text = "This is my 100 Days of Code Journey.\
+    This is day 2 of the 1-10 day segment\
+        from geeks for geeks."
+print('\n  Initializing a text using\
+      the Explicit multi-line statement', text)
+
+add = 25 + \
+    4 - \
+    7
+print('\n Initializing a mathematical expression\
+      using the Explicit multi-line statement', add)
