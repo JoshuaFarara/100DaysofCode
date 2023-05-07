@@ -1,5 +1,5 @@
 '''
-Day One of 100 Days of Code
+Day Two of 100 Days of Code
 
 May 6th, 2023
 
