@@ -14,6 +14,9 @@ Its about access within a program. What objects can be accessed amongst others.
 
 WHen a user creates a module, a global namespace getes created, later the creation of local functions creates local namespace.
 built-in namespace encompasses global namespace an dthe gloabal namespace encompasses the local namespace. 
+
+####  Scope  ####
+####  Statement, Indentation and Comment in Python  ####
 '''
 
 # variable is in the global namespace
@@ -29,4 +32,33 @@ def moth_it():
 
 # Scope
 # Access is addressed in the section. Allowed by the scope of the object. 
+# def action():
+#     print("Mothy is ready to take an action!")
+#     def moth_it_inner(): # inner function
+#         action_blades = 10
+#         print("Mothy has ", action_blades, " action blades.")
+#     moth_it_inner()
+#     print("Try printing variable from outer function: ", action_blades) #error lines, see below for fix
+# action()
 
+#fix
+def action():
+    print("Mothy is ready to take an action!")
+    def moth_it_inner(): # inner function
+        action_blades = 10
+        print("Mothy has ", action_blades, " action blades.")
+    moth_it_inner()
+action()     
+
+# Statement
+''' 
+Now we will start the various types of statements. Although it may feel trivial, it is worth it!
+
+'''
+
+# Multi-line
+# Purpose: ability to divide a long statement into numerois lines(\).
+fta = "Farara\
+The\
+Artist"
+print(fta)
