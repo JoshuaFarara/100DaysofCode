@@ -66,3 +66,28 @@ if(condition):
     
 #     first if statement
 #     if(i<)
+
+
+
+'''
+#Post day3 Practice
+
+'''
+child = 3
+children = []
+parents = 0
+m = False
+d = False
+if (child > 1):
+    m = True
+    d = True
+    parents = (m,d) # create 2 parents for the child
+print(parents)
+
+if (children != empty):
+    # match the children to the parent
+    parents.m = 1
+    for child in children:
+        []
+
+
