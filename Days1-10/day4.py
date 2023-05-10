@@ -66,3 +66,13 @@ print(moth_draft)
 x, y = input('Enter two values: ').split()
 print("Number of boys: ", y)
 print("Number of girls: ", x)
+
+# end=
+# file argument
+# print without new line
+# remember to use print() to its full capacity to display outputs more clearly
+
+# Operators
+print(boy_girl_ratio= y/x)
+# print(girl_boy_ratio= x/y)
+
