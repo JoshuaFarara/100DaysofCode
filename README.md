@@ -8,7 +8,7 @@ For link to GG page click here: https://www.geeksforgeeks.org/100-days-of-code-a
 The language Chosen for this Coding Challenge is Python.
 
 ### Days 1-10:
-day1:
+day1: Overview - Variables, Lists, Input from user
 day2:
 day3:
 day4:
