@@ -44,15 +44,22 @@ print(len(grocery_list))
 # print('The list is: ', lst)
 
 # adding to a list
-# append
+# append, adds values to the end of the list
 grocery_list.append(75)
 grocery_list.append(35)
 grocery_list.append(49)
 print(grocery_list)
 
+#insert adds value to desired position
+# extend adds multiple values at the end of the list
+
 # using iterator to add elements to list
 for i in range(1, 5):
     grocery_list.append(i)
 print("\nList after addition of elements from 1-3: ")
+print(grocery_list)
+
+# reverse a list
+grocery_list.reverse()
 print(grocery_list)
 
