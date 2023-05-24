@@ -8,5 +8,23 @@ How Artistic can you be with your programming code? Lets just have fun, relax, a
 
 
 # Todays Schedule
+Functions
+Python Functions
+*args and **kwargs in Python
+When to use yield instead of return in Python?
+Generators in Python
+Python lambda
+Global and Local Variables in Python
+Global keyword in Python
+First Class functions in Python
+Python Closures
+Decorators in Python
+Decorators with parameters in Python
+Memoization using decorators in Python
 
 '''
+
+def fly():
+    print("Where would you like your BladedMoth to go?")
+
+fly()
