@@ -21,7 +21,8 @@ Memoization using decorators in Python
 
 '''
 
-# When to use yield instead of return in Python?
+#######  When to use yield instead of return in Python? ######
+##change the code below and customize for learning purposes.
 
 # A Python program to generate squares from 1
 # to 100 using yield and therefore generator
@@ -30,10 +31,10 @@ Memoization using decorators in Python
 # next square number. It starts with 1
  
  
-def nextSquare():
+def nextCard():
     i = 1
  
-    # An Infinite loop to generate squares
+    # An Infinite loop to generate cards
     while True:
         yield i*i
         i += 1  # Next execution resumes
@@ -42,7 +43,7 @@ def nextSquare():
  
 # Driver code to test above generator
 # function
-for num in nextSquare():
+for num in nextCard():
     if num > 100:
         break
     print(num)
