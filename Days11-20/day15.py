@@ -49,3 +49,18 @@ obj.print_Code()
 
 
 # Examle of the parameterized constructor:
+class Workflow:
+    def __init__(self, subject, website, time):
+        self.subject = subject
+        self.website = website
+        self.time = time
+
+    def display_info(self):
+        print(f"Workflow: {self.subject} {self.website} {self.time}")
+
+workflow = Workflow("FTA", "www.fararatheartist.com", "11:00")
+
+print(workflow.subject)
+print(workflow.website)
+print(workflow.time)
+workflow.display_info()
