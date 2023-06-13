@@ -8,8 +8,7 @@ How Artistic can you be with your programming code? Lets just have fun, relax, a
 
 # Todays Schedule
 
-Inheritance in Python
-Types of inheritance Python
+
 Encapsulation in Python
 Polymorphism in Python
 Class or Static Variables in Python
