@@ -10,9 +10,21 @@ How Artistic can you be with your programming code? Lets just have fun, relax, a
 
 
 Encapsulation in Python
-Polymorphism in Python
-Class or Static Variables in Python
-Class method vs Static method in Python
-Metaprogramming with Metaclasses in Python
+
 
 '''
+# protected
+class Services:
+    def __init__(self, sname, serviceType, price):
+        self.sname = sname
+        self.serviceType = serviceType
+        self.price = price
+
+class Service(Services):
+    def __init__(self):
+        Services.__init__(self)
+        print()
+
+        
+
+# Private
