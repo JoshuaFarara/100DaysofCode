@@ -13,10 +13,20 @@ def maxnumber(number1, number2):
     print("The maximum number is: ", max(number1, number2))
 
 # lines of code that take user input for choosing max of 2 numbers
-x = input("Enter the x coordinate: ")
-xprime = input("Enter the xprime coordinate: ")
+x = int(input("Enter the x coordinate: "))
+xprime = int(input("Enter the xprime coordinate: "))
 bestX = max(x, xprime)
-print(bestX)
+print("The best x is: ", bestX)
 
-getMax(15, 39)
+print(getMax(15, 39))
 maxnumber(34, 95)
+
+
+def maximum(x ,xprime):
+
+    if x > xprime:
+        return x
+    else: 
+        return xprime
+    
+print("The maximum input is: ", maximum(x, xprime))
