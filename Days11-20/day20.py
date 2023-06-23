@@ -19,7 +19,7 @@ tries = 0
 arrayPrac = array.array('i', [5, 9, 7, 1, 3])
 for i in range (len(arrayPrac)):
     tries+=1
-    print(arrayPrac[i], tries)
+    print(arrayPrac[i], tries) 
 
 # append
 
