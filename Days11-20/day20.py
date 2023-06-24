@@ -9,6 +9,9 @@ How Artistic can you be with your programming code? Lets just have fun, relax, a
 # Todays Schedule
 
 Arrays
+append
+insert
+remove
 
 '''
 import array
@@ -28,3 +31,5 @@ for i in arrayPrac:
     if i in (arrayPrac[i] > arrayPrac[i + 1]):
         highScore = max(arrayPrac[i])
     print(highScore)
+
+#
