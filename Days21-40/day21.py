@@ -26,3 +26,24 @@ my_list = []
 my_list = ["Hello", 1, 5.5]
 
 # 	Write a program to reverse the array
+def reverseArray(arr):
+    print("The original array is: ", arr)
+    n = len(arr)
+    start = 0
+    end =  n- 1
+
+    while start < end:
+        # arr[start] = arr[end]
+        # arr[end] = arr[start]
+        arr[start], arr[end] = arr[end], arr[start]
+        start += 1
+        end -= 1
+
+    print("The reversed array is :", arr)
+
+reverseArray(arr)
+reverseArray(arr2)
+reverseArray(arr3)
+
+
+# recursive reverse the array
