@@ -26,10 +26,17 @@ for i in range (len(arrayPrac)):
 
 # append
 
+# sort array
+arrPrac_sorted = sorted(arrayPrac)
+min_value = arrPrac_sorted[0] 
+max_value = arrPrac_sorted[-1]
+print("The min value of the array is: ", min_value)
+print("The max value of the array is: ", max_value)
+
 # Max Element in array and its position
-for i in arrayPrac:
-    if i in (arrayPrac[i] > arrayPrac[i + 1]):
-        highScore = max(arrayPrac[i])
-    print(highScore)
+# for i in arrayPrac:
+#     if i in (arrayPrac[i] > arrayPrac[i + 1]):
+#         highScore = max(arrayPrac[i])
+#     print(highScore)
 
 #
