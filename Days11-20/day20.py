@@ -19,7 +19,7 @@ import array
 
 
 tries = 0
-arrayPrac = array.array('i', [5, 9, 7, 1, 3])
+arrayPrac = array.array('i', [5, 9, 7, 12, 3])
 for i in range (len(arrayPrac)):
     tries+=1
     print(arrayPrac[i], tries) 
@@ -34,9 +34,16 @@ print("The min value of the array is: ", min_value)
 print("The max value of the array is: ", max_value)
 
 # Max Element in array and its position
-# for i in arrayPrac:
-#     if i in (arrayPrac[i] > arrayPrac[i + 1]):
-#         highScore = max(arrayPrac[i])
-#     print(highScore)
+def getMax(arrayPrac):
+    n = len(arrayPrac)
+    res = arrayPrac[0]
+    for i in range(1, n):
+        res = max(res, arrayPrac[i])
+    return res
 
-#
+# n = len(arrayPrac)
+print(getMax(arrayPrac))
+
+new_array = array.array('i',[12, 7, 9, 1, 22, 58])
+print(max(new_array))
+
