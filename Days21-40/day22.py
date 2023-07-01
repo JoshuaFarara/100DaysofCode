@@ -95,7 +95,6 @@ print("Size: ", stackQueue.qsize())
 print('\nElements popped from the stack')
 print(stackQueue.get())
 print(stackQueue.get())
-print(stackQueue.get())
+# print(stackQueue.get())
  
-print(stackQueue)
 print("\nEmpty: ", stackQueue.empty())
