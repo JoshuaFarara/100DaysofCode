@@ -47,3 +47,4 @@ print(getMax(arrayPrac))
 new_array = array.array('i',[12, 7, 9, 1, 22, 58])
 print(max(new_array))
 
+new_arraySorted = sorted(new_array)
