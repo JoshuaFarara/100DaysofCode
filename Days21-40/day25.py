@@ -1,5 +1,5 @@
 '''
-Day Tweny-Fourth of 100 Days of Code
+Day Twenty-Five of 100 Days of Code
 
 July 3rd, 2023
 
