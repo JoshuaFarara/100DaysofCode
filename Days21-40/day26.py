@@ -44,12 +44,18 @@ class LinkedList:
     Make the new node as the Head of the Linked List.
     '''
     def add_node(self, data):
-        # ALlocate the Node and put in the data
+        # Allocate the Node and put in the data
         new_node = Node(data)
         # Make next of new Node as head
         new_node.next = self.head
         # Move the head to point to new Node
         self.head = new_node
+
+    def display(self):
+        temp = self.head
+        while (temp != None):
+            print(temp.data, end=" ")
+            temp = temp.next
 
 # if __name__ =='__main__':
 #     head = None
@@ -84,4 +90,10 @@ def printList(node):
 
 printList(swimmer)
 
+activityList = LinkedList()
+activityList.add_node('cash')
+activityList.add_node('cashApp')
+activityList.add_node('venmo')
+activityList.add_node('zelle')
 
+activityList.display()

@@ -14,7 +14,7 @@ Python Arrays
 
 '''
 
-# tuples, much like lists ecept the tuple is ummitable
+# tuples, much like lists except the tuple is ummitable
 my_tuple  = ()
 print(my_tuple)
 
