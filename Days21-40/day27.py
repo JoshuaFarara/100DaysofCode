@@ -10,7 +10,9 @@ How Artistic can you be with your programming code? Lets just have fun, relax, a
 
 Queues
 *Linked List
-Trees
+    singly
+    *doubly
+*Trees
 Tries
 Graphs (BFS and DFS)
 Hashing
@@ -22,10 +24,11 @@ Searching
 # Doubly linked list
 class Node:
     def __init__(self, data):
+        self.previous = None #requires additional memory for the backward reference.
         self.data = data
         self.next = None
 
-class LinkedList:
+class DoublyLinkedList: 
     def __init__(self):
         self.head = None
         self.last_node = None
@@ -37,12 +40,14 @@ class LinkedList:
             self.last_node = self.head
         # adding node to the tail of linked list
         else:
-            self.last_node.next = Node(data)
-            self.last_node = self.last_node.next
+            new_node = Node(data)
+            self.last_node.next = new_node
+            new_node.previous = self.last_node
+            new_node.next = None
+            self.last_node = new_node
 
     def insertFront(self, data): # add a node to the beginning of the linked list
         if self.last_node is None: 
-            
             self.head = Node(data)
             self.last_node = self.head
         else:
@@ -52,26 +57,41 @@ class LinkedList:
             new_node.next = self.head
             # Move the head to point to new Node
             self.head = new_node
+            new_node.previous = self.last_node
 
-    def display(self):
-        current = self.head
-        while current is not None:
-            print(current.data, end=' ')
-            current = current.next
-        print()
 
-singlyLinked = LinkedList()
-singlyLinked.append(1)
-singlyLinked.append(2)
-singlyLinked.append(3)
+    def display(self, Type):
+        if Type == 'Left_To_Right':
+            current = self.head
+            while current is not None:
+                print(current.data, end=' ')
+                current = current.next
+            print()
+        else:
+            current = self.last_node
+            while current is not None:
+                print(current.data, end=' ')
+                current = current.previous
+            print()
+
+DoublyLinkedList = DoublyLinkedList()
+DoublyLinkedList.append(1)
+DoublyLinkedList.append(2)
+DoublyLinkedList.append(3)
 print("\nInitial List with appened to tail.")
-singlyLinked.display()
+DoublyLinkedList.display('Left_To_Right')
+DoublyLinkedList.display('Right_To_Left')
 
-singlyLinked.insertFront(4)
-singlyLinked.insertFront(5)
-singlyLinked.insertFront(6)
-singlyLinked.append(7) # proves adding node to tail
-print("\nInitial List with inserted nodes to head.")
+DoublyLinkedList.insertFront(4)
+DoublyLinkedList.insertFront(5)
+DoublyLinkedList.insertFront(6)
+DoublyLinkedList.append(7) # proves adding node to tail
+print("\nInitial List with inserted nodes to beginning.")
 
 
-singlyLinked.display()
+# DoublyLinkedList.display()
+DoublyLinkedList.display('Left_To_Right')
+DoublyLinkedList.display('Right_To_Left')
+
+
+# Tree

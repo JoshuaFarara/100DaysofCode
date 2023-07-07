@@ -10,6 +10,8 @@ How Artistic can you be with your programming code? Lets just have fun, relax, a
 
 Queues
 *Linked List
+    *singly
+    doubly
 Trees
 Tries
 Graphs (BFS and DFS)
@@ -32,8 +34,8 @@ class Node: # Contatiner for some data
         self.data = data # Assign data
         self.next = None #initialize next as null
     
-# Linked List class
-class LinkedList:
+# SinglyLinked List class
+class SinglyLinkedList:
     #linked list function initilize list object
     def __init__(self):
         self.head = None
@@ -90,7 +92,7 @@ def printList(node):
 
 printList(swimmer)
 
-activityList = LinkedList()
+activityList = SinglyLinkedList()
 activityList.add_node('cash')
 activityList.add_node('cashApp')
 activityList.add_node('venmo')
