@@ -38,7 +38,7 @@ Subtree: A tree formed by a node and all of its descendants in the tree is calle
 '''
 
 # Trees
-# Binary Tree
+# Binary Tree:  https://www.geeksforgeeks.org/complete-binary-tree/
 # Dynamic Node Representation(Linked Representation):
 
 # Array Representaton(Sequential Rep):
@@ -78,3 +78,20 @@ set_right('E', 1)
 set_right('F', 2)
 print_tree()
  
+
+#  Complete Binary tree
+'''
+Root – Node in which no edge is coming from the parent. Example -node A
+Child – Node having some incoming edge is called child. Example – nodes B, F are the child of A and C respectively.
+Sibling – Nodes having the same parent are sibling. Example- D, E are siblings as they have the same parent B.
+Degree of a node – Number of children of a particular parent. Example- Degree of A is 2 and Degree of C is 1. Degree of D is 0.
+Internal/External nodes – Leaf nodes are external nodes and non leaf nodes are internal nodes.
+Level – Count nodes in a path to reach a destination node. Example- Level of node D is 2 as nodes A and E form the path.
+Height – Number of edges to reach the destination node, Root is at height 0. Example – Height of node E is 2 as it has two edges from the root.
+'''
+
+# all leaves have same depth
+
+# Perfect Binary Tree
+# A binary tree of height ‘h’ having the maximum number of nodes is a perfect binary tree
+# for n number of nodes, 2^h+1 - 1 is the maximum number of nodes
