@@ -84,7 +84,7 @@ if (child > 1):
     parents = (m,d) # create 2 parents for the child
 print(parents)
 
-if (children != empty):
+if (children != None):
     # match the children to the parent
     parents.m = 1
     for child in children:

@@ -8,24 +8,24 @@ For link to GG page click here: https://www.geeksforgeeks.org/100-days-of-code-a
 The language Chosen for this Coding Challenge is Python.
 
 ### Days 1-10:
-day1: Overview - Variables, Lists, Input from user
-day2:
-day3:
-day4:
-day5:
-day6:
-day7:
-day8:
-day9:
-day10:
+day1: Basic Fundamentals Overview - Variables, Lists, Input from user, Functions
+day2: Namespaces, Scope, and Multi-line Statements
+day3: Conditional Loop Statements and Parent-Child Relationship
+day4: Conditional Loop Statements,  if-else statements, nested if statements, and if-elif statements
+day5: Data Types - Strings, Lists, Tuples, and Iterations
+day6: List Manipulation - Accessing, Adding, and Reversing
+day7: Tuples and Sets
+day8: Lists, Tuples, and Dictionaries
+day9: Arrays and Array Operations
+day10: Control Flow, Loops, and Looping Techniques
 
 ### Day 11 to Day 20
-day 11:
-day 12:
-day 13:
-day 14:
-day 15:
-day 16:
+day 11: Functions, Arguments, and Return Statements
+day 12: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions
+day 13: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions
+day 14: Python OOP - Classes, Objects, Constructors, Inheritance, Encapsulation, Polymorphism, Class Variables, and Metaprogramming
+day 15: Constructors in Python - Default and Parameterized Constructors
+day 16: Constructors in Python - Default and Parameterized Constructors
 day 17:
 day 18:
 day 19:

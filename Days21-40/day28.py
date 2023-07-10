@@ -91,3 +91,41 @@ env["y"]
 
 print(e1.eval(env))
 print(e2.eval(env))
+
+# Full Binary Tree
+class Node:
+    def __init__(self, val):
+        self.value = val
+        self.left = None
+        self.right = None
+
+class FullBinaryTree:
+    def __init__(self):
+        self.root = None
+    
+    def insert(self, value):
+        newNode = Node(value)
+        if not self.root:
+            self.root = newNode
+        else:
+            currentNode = self.root
+            while True:
+                if not currentNode.left:
+                    currentNode.left = newNode
+                    break
+                elif not currentNode.right:
+                    currentNode.right = newNode
+                    break
+                else:
+                    currentNode = currentNode.left
+
+    def display(self):
+        pass
+
+tree = FullBinaryTree()
+tree.insert(1)
+tree.insert(2)
+tree.insert(3)
+tree.insert(4)
+
+
