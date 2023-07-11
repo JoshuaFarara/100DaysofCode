@@ -3,8 +3,9 @@ Day Sixteen of 100 Days of Code
 
 June 11th, 2023
 
-Todays program will create something out of the basics. Lets tell a story today through code. 
-How Artistic can you be with your programming code? Lets just have fun, relax, and code
+Todays program code demonstrates the concept of inheritance in Python, where classes can be derived from other classes to create hierarchies of related classes. 
+It shows examples of single inheritance, multiple inheritance, and multilevel inheritance. The code also covers how constructors of parent classes are called, and different types of inheritance, such as single, multiple, multilevel, hierarchical, and hybrid inheritance. 
+The examples illustrate how attributes and methods are inherited from parent classes, allowing for code reuse and organization.
 
 # Todays Schedule
 
@@ -69,7 +70,7 @@ class Parent(object):
     def getName(self):
         return self.dad
     
-    # to chjeck if this parent has children
+    # to check if this parent has children
     def hasChildren(self):
         return False
 

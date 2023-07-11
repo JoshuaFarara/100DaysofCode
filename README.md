@@ -25,22 +25,22 @@ day 12: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions
 day 13: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions
 day 14: Python OOP - Classes, Objects, Constructors, Inheritance, Encapsulation, Polymorphism, Class Variables, and Metaprogramming
 day 15: Constructors in Python - Default and Parameterized Constructors
-day 16: Constructors in Python - Default and Parameterized Constructors
-day 17:
-day 18:
-day 19:
-day 20:
+day 16: Inheritance in Python - Creating Hierarchies of Classes
+day 17: Encapsulation in Python - Access Modifiers and Data Hiding
+day 18: Plymorphism
+day 19: Class or Static Variables in Python - Shared Data Among Class Instances
+day 20: Array Operations - Append, Insert, Remove
 
 ### Day 21 to Day 40
-day 21:
-day 22:
-day 23:
-day 24:
-day 25:
-day 26:
-day 27:
-day 28:
-day 29:
+day 21: Array Operations - Reversing an Array
+day 22: Stack Data Structure - LIFO (Last-In, First-Out)
+day 23: Consistency Reminder
+day 24: Merge Two Sorted Arrays
+day 25: Queue Data Structure
+day 26: Singly Linked List
+day 27: Doubly Linked List
+day 28: Trees and Full Binary Tree
+day 29: Tree Terminologies and Binary Tree Representation
 day 30:
 
 day 31:

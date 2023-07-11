@@ -3,8 +3,9 @@ Day Twentieth of 100 Days of Code
 
 June 20th, 2023
 
-Todays program will create something out of the basics. Lets tell a story today through code. 
-How Artistic can you be with your programming code? Lets just have fun, relax, and code
+Todays program demonstrates basic operations on arrays in Python.
+It initializes an array and performs operations such as appending elements, sorting the array, finding the minimum and maximum values, 
+and obtaining the maximum element in the array and its position.
 
 # Todays Schedule
 

@@ -3,8 +3,8 @@ Day Twenty-Ninth of 100 Days of Code
 
 July 7th, 2023
 
-Todays program will create something out of the basics. Lets tell a story today through code. 
-How Artistic can you be with your programming code? Lets just have fun, relax, and code
+Todays program provides an explanation of tree terminologies and demonstrates the representation of a binary tree using both dynamic node representation (linked representation) 
+and array representation (sequential representation).
 
 # Todays Schedule
 

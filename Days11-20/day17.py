@@ -3,8 +3,9 @@ Day Seventeen of 100 Days of Code
 
 June 12th, 2023
 
-Todays program will create something out of the basics. Lets tell a story today through code. 
-How Artistic can you be with your programming code? Lets just have fun, relax, and code
+Todays program explores encapsulation in Python, which is a mechanism for restricting direct access to attributes and methods of a class.
+It introduces access modifiers, such as protected and private, to control the visibility of class members. The code demonstrates the use of protected members by inheriting from a base class and accessing its protected attributes.
+It also introduces the concept of private members and data hiding, where certain attributes and methods are hidden and can only be accessed through public methods of the class.
 
 # Todays Schedule
 
