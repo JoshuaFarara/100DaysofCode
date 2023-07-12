@@ -32,8 +32,8 @@ day 19: Class or Static Variables in Python - Shared Data Among Class Instances
 day 20: Array Operations - Append, Insert, Remove
 
 ### Day 21 to Day 40
-day 21: Array Operations - Reversing an Array  
-day 22: Stack Data Structure - LIFO (Last-In, First-Out)  
+day 21: Array Operations - Reversing an Array \  
+day 22: Stack Data Structure - LIFO (Last-In, First-Out) \  
 day 23: Consistency Reminder  
 day 24: Merge Two Sorted Arrays  
 day 25: Queue Data Structure  
