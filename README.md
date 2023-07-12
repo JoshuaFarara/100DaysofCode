@@ -8,28 +8,28 @@ For link to GG page click here: https://www.geeksforgeeks.org/100-days-of-code-a
 The language Chosen for this Coding Challenge is Python.
 
 ### Days 1-10:
-day1: Basic Fundamentals Overview - Variables, Lists, Input from user, Functions
-day2: Namespaces, Scope, and Multi-line Statements
-day3: Conditional Loop Statements and Parent-Child Relationship
-day4: Conditional Loop Statements,  if-else statements, nested if statements, and if-elif statements
-day5: Data Types - Strings, Lists, Tuples, and Iterations
-day6: List Manipulation - Accessing, Adding, and Reversing
-day7: Tuples and Sets
-day8: Lists, Tuples, and Dictionaries
-day9: Arrays and Array Operations
-day10: Control Flow, Loops, and Looping Techniques
+day1: Basic Fundamentals Overview - Variables, Lists, Input from user, Functions\
+day2: Namespaces, Scope, and Multi-line Statements\
+day3: Conditional Loop Statements and Parent-Child Relationship\
+day4: Conditional Loop Statements,  if-else statements, nested if statements, and if-elif statements\
+day5: Data Types - Strings, Lists, Tuples, and Iterations\
+day6: List Manipulation - Accessing, Adding, and Reversing\
+day7: Tuples and Sets\
+day8: Lists, Tuples, and Dictionaries\
+day9: Arrays and Array Operations\
+day10: Control Flow, Loops, and Looping Techniques\
 
 ### Day 11 to Day 20
 day 11: Functions, Arguments, and Return Statements\
 day 12: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions\
 day 13: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions\
-day 14: Python OOP - Classes, Objects, Constructors, Inheritance, Encapsulation, Polymorphism, Class Variables, and Metaprogramming
-day 15: Constructors in Python - Default and Parameterized Constructors
-day 16: Inheritance in Python - Creating Hierarchies of Classes
-day 17: Encapsulation in Python - Access Modifiers and Data Hiding
-day 18: Plymorphism
-day 19: Class or Static Variables in Python - Shared Data Among Class Instances
-day 20: Array Operations - Append, Insert, Remove
+day 14: Python OOP - Classes, Objects, Constructors, Inheritance, Encapsulation, Polymorphism, Class Variables, and Metaprogramming\
+day 15: Constructors in Python - Default and Parameterized Constructors\
+day 16: Inheritance in Python - Creating Hierarchies of Classes\
+day 17: Encapsulation in Python - Access Modifiers and Data Hiding\
+day 18: Plymorphism\
+day 19: Class or Static Variables in Python - Shared Data Among Class Instances\
+day 20: Array Operations - Append, Insert, Remove\
 
 ### Day 21 to Day 40
 day 21: Array Operations - Reversing an Array  
@@ -41,9 +41,9 @@ day 26: Singly Linked List
 day 27: Doubly Linked List  
 day 28: Trees and Full Binary Tree  
 day 29: Tree Terminologies and Binary Tree Representation  
-day 30: Priority Queue Implementation  
+day 30: Priority Queue Array Implementation
 
-day 31:
+day 31: Priority Queue linked list Implementation  
 day 32:
 day 33:
 day 34:
