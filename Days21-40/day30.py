@@ -3,8 +3,7 @@ Day Thirtieth of 100 Days of Code
 
 July 11th, 2023
 
-Todays program will create something out of the basics. Lets tell a story today through code. 
-How Artistic can you be with your programming code? Lets just have fun, relax, and code
+Todays program demonstrates the implementation of a priority queue using an array.
 
 # Todays Schedule
 
@@ -72,4 +71,51 @@ class GFG:
         # return position of the element
         return ind
     
-    def 
+    def dequeue():
+        
+        # Find the position of the element
+        # with highest priority
+        ind = GFG.peek()
+         
+        # Shift the element one index before
+        # from the position of the element
+        # with highest priority is found
+        i = ind
+        while (i < GFG.size) :
+            GFG.pr[i] = GFG.pr[i + 1]
+            i += 1
+             
+        # Decrease the size of the
+        # priority queue by one
+        GFG.size -= 1
+    @staticmethod
+    def main( args) :
+       
+        # Function Call to insert elements
+        # as per the priority
+        GFG.enqueue(10, 2)
+        GFG.enqueue(14, 4)
+        GFG.enqueue(16, 4)
+        GFG.enqueue(12, 3)
+         
+        # Stores the top element
+        # at the moment
+        ind = GFG.peek()
+        print(GFG.pr[ind].value)
+         
+        # Dequeue the top element
+        GFG.dequeue()
+         
+        # Check the top element
+        ind = GFG.peek()
+        print(GFG.pr[ind].value)
+         
+        # Dequeue the top element
+        GFG.dequeue()
+         
+        # Check the top element
+        ind = GFG.peek()
+        print(GFG.pr[ind].value)
+     
+if __name__=="__main__":
+    GFG.main([])
