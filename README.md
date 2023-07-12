@@ -20,9 +20,9 @@ day9: Arrays and Array Operations
 day10: Control Flow, Loops, and Looping Techniques
 
 ### Day 11 to Day 20
-day 11: Functions, Arguments, and Return Statements
-day 12: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions
-day 13: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions
+day 11: Functions, Arguments, and Return Statements\
+day 12: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions\
+day 13: *args and **kwargs, Yield vs. Return, Generators, and Lambda Functions\
 day 14: Python OOP - Classes, Objects, Constructors, Inheritance, Encapsulation, Polymorphism, Class Variables, and Metaprogramming
 day 15: Constructors in Python - Default and Parameterized Constructors
 day 16: Inheritance in Python - Creating Hierarchies of Classes
@@ -32,8 +32,8 @@ day 19: Class or Static Variables in Python - Shared Data Among Class Instances
 day 20: Array Operations - Append, Insert, Remove
 
 ### Day 21 to Day 40
-day 21: Array Operations - Reversing an Array \  
-day 22: Stack Data Structure - LIFO (Last-In, First-Out) \  
+day 21: Array Operations - Reversing an Array  
+day 22: Stack Data Structure - LIFO (Last-In, First-Out)  
 day 23: Consistency Reminder  
 day 24: Merge Two Sorted Arrays  
 day 25: Queue Data Structure  
