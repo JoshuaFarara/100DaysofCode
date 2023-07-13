@@ -17,7 +17,7 @@ day6: List Manipulation - Accessing, Adding, and Reversing\
 day7: Tuples and Sets\
 day8: Lists, Tuples, and Dictionaries\
 day9: Arrays and Array Operations\
-day10: Control Flow, Loops, and Looping Techniques\
+day10: Control Flow, Loops, and Looping Techniques
 
 ### Day 11 to Day 20
 day 11: Functions, Arguments, and Return Statements\
@@ -29,7 +29,7 @@ day 16: Inheritance in Python - Creating Hierarchies of Classes\
 day 17: Encapsulation in Python - Access Modifiers and Data Hiding\
 day 18: Plymorphism\
 day 19: Class or Static Variables in Python - Shared Data Among Class Instances\
-day 20: Array Operations - Append, Insert, Remove\
+day 20: Array Operations - Append, Insert, Remove
 
 ### Day 21 to Day 40
 day 21: Array Operations - Reversing an Array  
