@@ -1,7 +1,7 @@
 '''
 Day Thirty-Third of 100 Days of Code
 
-July 20th, 2023
+July 21st, 2023
 
 Todays program demonstrates the implementation of a priority queue using an array.
 
