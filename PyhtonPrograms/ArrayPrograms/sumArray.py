@@ -14,9 +14,10 @@ print(total)
 ans = sum(arr)
 print(ans)
 
-n = 0
-while (n < len(arr)):
-    arr[i] += 1
-    n += 1
+# n = 0
+# while (n < len(arr)):
+#     arr[i] += 
+
+#     n += 1
     
-print(total)
+# print(total)
