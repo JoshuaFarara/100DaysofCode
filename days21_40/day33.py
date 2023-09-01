@@ -22,7 +22,7 @@ class Day33:
     def create_new_array(self):
         new_array = []
         self.arrays.append(new_array)
-        return self.arr
+        return self.arrays
      
     def add_elements(self, array, element):
         if array in self.arrays:
@@ -35,12 +35,12 @@ class Day33:
     def print_array(arr):
         print(arr)
 
-# password = [1, 2, 3, 4]
+password = [1, 2, 3, 4]
 code = Day33()
 # print(code.day, code.time)
-# code.create_new_array()
-# code.add_elements([3, 5, 7, 9])
-# code.print_array
+code.create_new_array(test)
+# code.add_elements()
+# code.print_array()
 
 
 # code.create_array(1)
