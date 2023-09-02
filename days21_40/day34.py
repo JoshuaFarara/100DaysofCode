@@ -8,7 +8,7 @@ Todays program demonstrates the implementation of a priority queue using an arra
 # Todays Schedule represented by *
 
 Exception handling
-User Input Exception HAndling
+User Input Exception Handling
 try and except
 
 SyntaxError: This exception is raised when the interpreter encounters a syntax error in the code, such as a misspelled keyword, a missing colon, or an unbalanced parenthesis.
