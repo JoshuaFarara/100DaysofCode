@@ -23,36 +23,50 @@ ZeroDivisionError: This exception is raised when an attempt is made to divide a 
 ImportError: This exception is raised when an import statement fails to find or load a module.
 '''
 
-# practice
-a = [1, 2, 3]
-try:
-    print("Second element = %d" %(a[1]))
+# # practice
+# a = [1, 2, 3]
+# try:
+#     print("Second element = %d" %(a[1]))
 
-    print("Fourth element = %d" %(a[3]))
-except:
-    print ("An error occured.")
+#     print("Fourth element = %d" %(a[3]))
+# except:
+#     print ("An error occured.")
 
-# Program to handle multiple errors with one
-# except statement
-# Python 3
+# # Program to handle multiple errors with one
+# # except statement
+# # Python 3
 
-def fun(a):
-	if a < 4:
+# def fun(a):
+# 	if a < 4:
 
-		# throws ZeroDivisionError for a = 3
-		b = a/(a-3)
+# 		# throws ZeroDivisionError for a = 3
+# 		b = a/(a-3)
 
-	# throws NameError if a >= 4
-	print("Value of b = ", b)
+# 	# throws NameError if a >= 4
+# 	print("Value of b = ", b)
 	
+# try:
+# 	fun(3)
+# 	fun(5)
+
+# # note that braces () are necessary here for
+# # multiple exceptions
+# except ZeroDivisionError:
+# 	print("ZeroDivisionError Occurred and Handled")
+# except NameError:
+# 	print("NameError Occurred and Handled")
+
+
+text = None
+textRetry = None
+def func(a):
+	text = input('Username: ')
+	textRetry = ('Create New Username: ')
+	print(text)
 try:
-	fun(3)
-	fun(5)
-
-# note that braces () are necessary here for
-# multiple exceptions
-except ZeroDivisionError:
-	print("ZeroDivisionError Occurred and Handled")
-except NameError:
-	print("NameError Occurred and Handled")
-
+    number = int(text)
+    func(text)
+    print(number)
+except:
+	print("Invalid Username: Try Again")
+	func(textRetry)    
