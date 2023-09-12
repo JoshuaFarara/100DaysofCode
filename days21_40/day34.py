@@ -70,5 +70,3 @@ try:
 except:
 	print("Invalid Username: Try Again")
 	func(textRetry)    
-	
-    # travel
